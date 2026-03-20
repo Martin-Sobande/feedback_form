@@ -55,11 +55,25 @@ nav{
   .feedback-form button:hover {
     background-color: #d94a77;
   }
-  
+
+  .rating {
+    text-align: left;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+
+  .radio {
+    text-align: inherit;
+    padding: inherit;
+    box-sizing: border-box;
+  }
+
   /* Media query for smaller screens */
   @media only screen and (max-width: 600px) {
     .feedback-form {
       width: 90%;
     }
   }
+
+
   
